@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/azsembler/advanced-welding-test-team2_advanced_welding.svg?branch=master)](https://travis-ci.org/azsembler/advanced-welding-test-team2_advanced_welding)
+
 # Advanced Welding Test - [Team Name]
 
 ((Setup travis and include your badge here))
