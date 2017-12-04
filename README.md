@@ -24,6 +24,7 @@ Now for every push , travis does the following:
 -   Resolves package dependencies using rosdep (i.e. install packages using apt-get).
 -   Compiles the catkin workspace
 -   Runs all available unit tests
+
 Including the above, more information can be found at [this link](https://answers.ros.org/question/220305/how-can-i-integrate-my-ros-package-with-travis-continuous-integration/)
 
 ## Known Issues / Todo's
