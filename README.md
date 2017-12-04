@@ -27,7 +27,7 @@ Now for every push , travis does the following:
 
 Including the above, more information can be found at [this link](https://answers.ros.org/question/220305/how-can-i-integrate-my-ros-package-with-travis-continuous-integration/)
 
-[![Build Status](https://travis-ci.org/Ravikiran-Bhat-Git/advanced-welding-test-team2_advanced_welding.svg?branch=develop)](https://travis-ci.org/Ravikiran-Bhat-Git/advanced-welding-test-team2_advanced_welding)
+Successful travis build status can be seen at this link : [![Build Status](https://travis-ci.org/Ravikiran-Bhat-Git/advanced-welding-test-team2_advanced_welding.svg?branch=develop)](https://travis-ci.org/Ravikiran-Bhat-Git/advanced-welding-test-team2_advanced_welding)
 
 ## Known Issues / Todo's
 
