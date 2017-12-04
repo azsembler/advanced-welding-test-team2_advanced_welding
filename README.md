@@ -27,10 +27,12 @@ Now for every push , travis does the following:
 
 Including the above, more information can be found at [this link](https://answers.ros.org/question/220305/how-can-i-integrate-my-ros-package-with-travis-continuous-integration/)
 
+[![Build Status](https://travis-ci.org/Ravikiran-Bhat-Git/advanced-welding-test-team2_advanced_welding.svg?branch=develop)](https://travis-ci.org/Ravikiran-Bhat-Git/advanced-welding-test-team2_advanced_welding)
+
 ## Known Issues / Todo's
 
 -   Creating a node for working with the arm
--   Travis build failing. A description of the failure cause can be seen [here](https://travis-ci.org/Ravikiran-Bhat-Git/advanced-welding-test-team2_advanced_welding)  
+
 
 ## Introduction
 The goal of this project is the implementation of a catesian controller that can control a manipulator smoothly and pass the welding task of the robocup competition.
