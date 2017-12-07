@@ -12,7 +12,7 @@ To setup, perform the following steps:
 
 -   Sign up for [travis-ci.org](https://travis-ci.org/) and enable CI for the repository
 -   Create a .travis.yml file in your local repository.
--   Populate the file as described [here](https://github.com/felixduvallet/ros-travis-integration/blob/master/.travis.yml). 
+-   Populate the file as described [here](https://github.com/felixduvallet/ros-travis-integration/blob/master/.travis.yml).
 -   The above file sets up continuous integration (through Travis-CI) for any ROS package. For more information refer [this link](https://github.com/felixduvallet/ros-travis-integration)
 -   Commit the file and push it to github.
 
@@ -27,7 +27,7 @@ Now for every push , travis does the following:
 
 Including the above, more information can be found at [this link](https://answers.ros.org/question/220305/how-can-i-integrate-my-ros-package-with-travis-continuous-integration/)
 
-Successful travis build status can be seen at this link : [![Build Status](https://travis-ci.org/Ravikiran-Bhat-Git/advanced-welding-test-team2_advanced_welding.svg?branch=develop)](https://travis-ci.org/Ravikiran-Bhat-Git/advanced-welding-test-team2_advanced_welding)
+Successful travis build status can be seen at this link : [![Build Status](https://travis-ci.org/azsembler/advanced-welding-test-team2_advanced_welding.svg?branch=develop)](https://travis-ci.org/azsembler/advanced-welding-test-team2_advanced_welding)
 
 ## Known Issues / Todo's
 
