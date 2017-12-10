@@ -95,6 +95,13 @@ before_script:
   # package depdencies: install using rosdep.
   - cd ~/catkin_ws
   - rosdep install -y --from-paths src --ignore-src --rosdistro $ROS_DISTRO
+addons:
+  sonarcloud:
+    organization: "azsembler-github" # the key of the org you chose at step #3
+    token:
+      secure: 755c10899b38df96bb3bcc235ca455caf0ad45f4 # encrypted value of your token
+    branches:
+      - travis
 
 script:
   - source /opt/ros/$ROS_DISTRO/setup.bash
@@ -102,4 +109,9 @@ script:
   - catkin build $( [ -f $CATKIN_OPTIONS ] && cat $CATKIN_OPTIONS )
   # Run the tests, ensuring the path is set correctly.
   - source devel/setup.bash
-  - catkin build 
+  - catkin build
+  - sonar-scanner
+
+cache:
+  directories:
+  - '$HOME/.sonar/cache'
