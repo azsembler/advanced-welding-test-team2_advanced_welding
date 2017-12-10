@@ -112,13 +112,13 @@ script:
   # Run the tests, ensuring the path is set correctly.
   - source devel/setup.bash
   - catkin build
-  - build-wrapper-linux-x86-64 --out-dir bw-output make clean all
-  - sonar-scanner \
-    -Dsonar.projectKey=hbrs-rm_team2:advanced-welding-test-team2_advanced_welding.travis \
-    -Dsonar.sources=. \
-    -Dsonar.cfamily.build-wrapper-output=bw-output \
-    -Dsonar.host.url=https://sonarcloud.io \
-    -Dsonar.organization=hbrs-rm_team2
+  # - build-wrapper-linux-x86-64 --out-dir bw-output make clean all
+  - sonar-scanner
+    # -Dsonar.projectKey=hbrs-rm_team2:advanced-welding-test-team2_advanced_welding.travis \
+    # -Dsonar.sources=. \
+    # -Dsonar.cfamily.build-wrapper-output=bw-output \
+    # -Dsonar.host.url=https://sonarcloud.io \
+    # -Dsonar.organization=hbrs-rm_team2
 
 cache:
   directories:
