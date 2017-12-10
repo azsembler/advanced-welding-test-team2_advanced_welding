@@ -97,9 +97,11 @@ before_script:
   - rosdep install -y --from-paths src --ignore-src --rosdistro $ROS_DISTRO
 addons:
   sonarcloud:
-    organization: "azsembler-github" # the key of the org you chose at step #3
+    organization: "hbrs-rm_team2" # the key of the org you chose at step #3
     token:
       secure: 755c10899b38df96bb3bcc235ca455caf0ad45f4 # encrypted value of your token
+    github_token:
+      secure: 441513caacafc80a3728e6c87595e443bdcc54f6
     branches:
       - travis
 
