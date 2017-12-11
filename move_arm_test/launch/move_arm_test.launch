@@ -1,4 +1,5 @@
 <launch>
-	<node pkg="move_arm_test" type="move_arm_test_node" name="move_arm_test" output="screen">
+	<node pkg="move_arm_test" type="move_arm_test_node" name="move_arm_test_node" output="screen">
 	</node>
+	<test test-name="test_cartersian_node" pkg="move_arm_test" type="test_cartesian.py" />
 </launch>

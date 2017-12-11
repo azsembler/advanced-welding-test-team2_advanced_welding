@@ -199,3 +199,8 @@ target_link_libraries(${PROJECT_NAME}_node
 
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
+# catkin_add_nosetests(test/test_cartesian.py)
+if(CATKIN_ENABLE_TESTING)
+  find_package(rostest REQUIRED)
+  catkin_add_nosetests(test/test_cartesian.py)
+endif()
