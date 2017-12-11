@@ -103,6 +103,7 @@ addons:
     github_token:
       secure: 441513caacafc80a3728e6c87595e443bdcc54f6
     branches:
+      - master
       - travis
 
 script:
